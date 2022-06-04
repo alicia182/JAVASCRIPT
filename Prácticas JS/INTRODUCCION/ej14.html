@@ -11,6 +11,20 @@
 
 
 <script>
+/*Escribe un programa que pida una distancia (en metros), y el tiempo tardado (como tres números: horas, minutos y segundos) 
+y que muestre la velocidad en metros por segundo y kilómetros por hora.*/
+
+let metros = parseInt(window.prompt('Introduce la distancia recorrida en metros'))
+
+let horas = parseInt(window.prompt ('Cuánto tiempo has tardado en recorrer esa distancia? Horas: '))
+
+let minutos = parseInt(window.prompt ('Cuánto tiempo has tardado en recorrer esa distancia? Minutos: '))
+let segundos = parseInt(window.prompt ('Cuánto tiempo has tardado en recorrer esa distancia? Segundos: '))
+
+let ms = metros / (horas * 60 * 60 + minutos * 60 + segundos)
+let kh = metros / 1000 (horas + minutos / 60 + segundos / 60 / 60)
+
+window.alert(`La velocidad ha sido de ${ms}m/s y de ${kh} km/h `)
 
     
 </script>

@@ -10,9 +10,12 @@
     
 
 
-<script>
-
+    <script>
+     /*Escribe un programa que pida al usuario un dígito (n) y calcule y muestre el valor de n+nn+nnn.
+      Por ejemplo si el usuario introduce 5 el programa calcularía 5 + 55 + 555*/
+      let numero = window.prompt('Introduce un dígito')
+      console.log(`la suma de ${numero} +  ${numero + numero} + ${numero + numero + numero} = ${parseInt(numero) + (parseInt(numero)*11) + (parseInt(numero) * 111)} `)
     
-</script>
+    </script>
 </body>
 </html>
