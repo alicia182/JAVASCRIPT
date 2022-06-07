@@ -17,13 +17,22 @@
         window.alert(`Los números que forman parte de la operación son: (${num1} y ${num2})`)*/
 
 
-        let suma = window.prompt("Introduce una suma: ") // 
-        let mas = suma.indexOf("+")
-        let sumando1 = suma.substring(0, mas)
-        let sumando2 = suma.substring(mas+1)
+        let suma = window.prompt('Introduce una suma')
 
-        console.log(`los nùme`)
+        let mas = suma.indexOf('+')
+        let sumando1 = suma.substring(0, mas) //aqui no se incluye el mas
+        let sumando2 = suma.substring(mas + 1 ) //desde el mas hasta donde sigue
+
+        console.log(
+            `los números que forman parte de la suma son ${parseInt(sumando1)} y ${sumando2}`
+            )
+
+        console.log(parseInt(sumando1))
+        console.log('y')
+        console.log(parseInt(sumando2))
        
+
+        /*console-log(parseInt(sumando1) + "y" parseInt(sumando2)) SI HACES ESTO LOS NUMEROS PIENSA QUE SON STRING Y SUMA STRING CON STRING*/
 
 
 
