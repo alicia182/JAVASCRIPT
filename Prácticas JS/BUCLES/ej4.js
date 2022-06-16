@@ -2,8 +2,9 @@ let suma = 0
 
 for (let i = 10; i > 0;  i--){
     suma += parseInt (window.prompt('Introduce un número')) // += para aumentar el valor en suma y no sobreescribirlo
-    co                                         // que seria lo mismo que suma = suma +
+                                             // que seria lo mismo que suma = suma +
 }
+// queremos que llegue a cero desde 10 por eso usamos i++
 
 console.log(suma/10) // tenemos todos los valores sumados y le preguntamos 10 veces al usuario
 
@@ -14,4 +15,5 @@ console.log(suma/10) // tenemos todos los valores sumados y le preguntamos 10 ve
 //sumar strings no es sumar numeros, los concatena, por eso se pone parseInt
 
 
-/*Escribe un programa que pida 10 valores. Al final mostrar la media de esos valores.*/
+/*Escribe un programa que pida 10 valores. 
+Al final mostrar la media de esos valores.*/

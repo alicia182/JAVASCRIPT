@@ -11,6 +11,6 @@ columna de al lado.*/
         factorial *= j
     
 
-console.log(`${i} ---${factorial}`)
+console.log(`${i} ---${factorial}`) //con --- se ve la columna de al lado
     
   }

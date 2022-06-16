@@ -593,7 +593,6 @@ if (numero = fechaNacimiento.num0.numero){
     : numeroFinal = fechaNacimiento.num9.femenino
 }
 
-//ver clase
 
 /*Vamos a hacer un generador de nombres de superhéroe. Pide al usuario la fecha de nacimiento, 
 el nombre y el apellido. Muestra el nombre de superhéroe de la siguiente manera: 
