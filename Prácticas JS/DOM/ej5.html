@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+/*Crea un programa que te pida 2 números. Mostrar en pantalla la suma, la resta, la
+multiplicación, la división y el resto de esos 2 números. Mostrar cada operación con
+un color y un color de fondo distintos.*/
+
+let num1 = parseInt(window.prompt("Introduce un número: "))
+let num2 = parseInt(window.prompt("Introduce otro número: "))
+
+let p1 = document.createElement("p")
+let p2 = document.createElement("p")
+let p3 = document.createElement("p")
+let p4 = document.createElement("p")
+let p5 = document.createElement("p")
+
+p1.innerText = `Suma ${num1 +num2}`
+p1.style.backgroundColor = "red"
+p1.style.color = "white"
+
+p2.innerText = `Resta ${num1 +num2}`
+p1.style.backgroundColor = "blue"
+p1.style.color = "yellow"
+
+p3.innerText = `Multiplicación ${num1 +num2}`
+p3.style.backgroundColor = "green"
+p3.style.color = "violet"
+
+p4.innerText = `División ${num1 +num2}`
+p4.style.backgroundColor = "tomato"
+p4.style.color = "aliceblue"
+
+p5.innerText = `Resto ${num1 +num2}`
+p5.style.backgroundColor = "purple"
+p5.style.color = "brown"
+
+document.body.appendChild(p1)
+
+document.body.appendChild(p2)
+
+document.body.appendChild(p3)
+
+document.body.appendChild(p4)
+
+document.body.appendChild(p5)
+
+
+
+
+
+
+    </script>
+
+</body>
+</html>
+
+
+   
